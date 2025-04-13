@@ -1,0 +1,6 @@
+rabbit:
+    cache-size: 10
+    hostname: "localhost"
+    port: 8091
+    username: myuser
+    password: {cipher}9a75f9db1668a14b772be32239d58dba834b74efbb6e43b1d2542049ace67921

@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: myuser
+    password: {cipher}b2ccf25b83748077e9d3cb66a64c212a853b90fef9f82af580444914d164a408
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.yaml
+
+rabbit:
+  cache-size: 10
+  hostname: "localhost"
+  port: 8091
+  username: myuser
+  password: {cipher}b2f0ee3035c8f543b538c54c2263ce499265c4a24aa7e0b117541d2776b2c843
+
