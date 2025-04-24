@@ -3,7 +3,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:8098/mydatabase
     username: myuser
-    password: "{cipher}00e68cc057c516a01ea4c0d3dad471445adfceeb180898558529ab351da15b2a%"
+    password: "{cipher}d685470aac574fc8d482290dcb041cd29d914aa5b846ca012b5765890065ece9"
 
   jpa:
     hibernate:
@@ -18,5 +18,5 @@ rabbit:
   hostname: "localhost"
   port: 8091
   username: myuser
-  password: "{cipher}00e68cc057c516a01ea4c0d3dad471445adfceeb180898558529ab351da15b2a%"
+  password: "{cipher}65d8a3bd78a812ea935d6832e79ae6f3ae2f78a40f46272460ab612b595ec69f"
 
